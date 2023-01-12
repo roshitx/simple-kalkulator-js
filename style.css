@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial;
+}
+
+body {
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: linear-gradient(135deg, #d2d2d255 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #d2d2d2 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #d2d2d255 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #d2d2d2 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.nilai1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.nilai2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.operator {
+    display: flex;
+    justify-content: center;
+}
+
+.operator button {
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.display input {
+    background-color: rgb(83, 83, 83);
+    height: 30px;
+    width: 20%;
+    color: white;
+}

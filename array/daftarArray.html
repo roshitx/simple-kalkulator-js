@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Daftar Looping</title>
+<style>
+body {padding-top:50px} 
+</style> 
+</head>
+<body>
+    <h1>Daftar</h1>
+<input type="text" id="text1"></input>
+
+<input type="button" id="button" value="Enter" onclick="display_array();"></input>
+<div id="Result"></div> 
+
+<script>
+    var x = 0;
+    var array = Array();
+
+    function display_array()
+    {
+        array[x] = document.getElementById("text1").value;
+    x++;
+    document.getElementById("text1").value = "";
+    var e = "<hr/>";   
+        
+    for (var y=0; y<array.length; y++)
+    {
+        e += array[y] + "<br/>";
+    }
+    document.getElementById("Result").innerHTML = e;
+    }
+</script>
+</body>
+</html>
